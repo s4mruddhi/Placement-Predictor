@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placement Predictor</title>
+</head>
+<body>
+
+    <h1>Placement Predictor</h1>
+
+    <form action="/predict" method="post">
+
+        <label>CGPA:</label>
+        <input type="text" name="cgpa" required>
+
+        <br><br>
+
+        <label>IQ:</label>
+        <input type="text" name="iq" required>
+
+        <br><br>
+
+        <button type="submit">Predict</button>
+
+    </form>
+
+    <h2>{{ prediction_text }}</h2>
+
+</body>
+</html>
