@@ -14,7 +14,7 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-
+# i am ediring 
     cgpa = float(request.form['cgpa'])
     iq = float(request.form['iq'])
 
