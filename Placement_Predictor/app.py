@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import pickle
 import numpy as np
-# i have made this chnages..!!!!
+# i have made this chnages.. my name sam!!!!
 app = Flask(__name__)
 
 # Load model and scaler
